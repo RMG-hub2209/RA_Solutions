@@ -17,8 +17,10 @@ $raColor_5: #6FFFB9;
 .footer{
     background-color: $raColor_2;
     color: $primary_1;
-    position: absolute;
     width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
 }
 
 .Copyright{

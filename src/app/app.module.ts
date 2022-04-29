@@ -18,6 +18,7 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatSelectModule } from '@angular/material/select';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatSliderModule } from '@angular/material/slider'
+import { FormsModule } from '@angular/forms';
 
 import 'hammerjs';
 
@@ -27,8 +28,10 @@ import { FooterComponent } from './footer/footer.component';
 import { PrincipalComponent } from './principal/principal.component';
 import { AboutComponent } from './about/about.component';
 import { ServiciosComponent } from './servicios/servicios.component';
+import { RegisterComponent } from './register/register.component';
 
 import { ServiceService } from './services/service.service';
+
 
 
 @NgModule({
@@ -39,11 +42,14 @@ import { ServiceService } from './services/service.service';
     PrincipalComponent,
     AboutComponent,
     ServiciosComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
+    FontAwesomeModule,
+    FormsModule,
     FlexLayoutModule,
     MatToolbarModule,
     MatProgressSpinnerModule,
@@ -57,8 +63,8 @@ import { ServiceService } from './services/service.service';
     MatCheckboxModule,
     MatSelectModule,
     MatSlideToggleModule,
-    MatSliderModule,
-    FontAwesomeModule
+    MatSliderModule
+    
   ],
   providers: [
     ServiceService

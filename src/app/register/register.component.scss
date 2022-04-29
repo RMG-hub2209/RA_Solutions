@@ -1,0 +1,27 @@
+/* Colores básicos */
+
+$primary_0: #FD009D;
+$primary_1: #F0FFFF;
+$primary_2: #A569BD;
+$primary_3: #4A235A;
+$primary_4: #401E4E;
+$secondary_1: #00CCFF;
+$secondary_2: #CCFF00;
+$secondary_3: #00FF33;
+$secondary_4: #13DAB6;
+
+$raColor_1: #0B132B;
+$raColor_2: #1C2541;
+$raColor_3: #3A506B;
+$raColor_4: #5BC0BE;
+$raColor_5: #6FFFB9;
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    .input-group{
+
+    }
+}
