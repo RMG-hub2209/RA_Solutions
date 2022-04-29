@@ -1,0 +1,23 @@
+/*Cuantico Font*/
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Quantico:ital,wght@1,700&display=swap');
+
+/* Colores básicos */
+$raColor_1: #0B132B;
+$raColor_2: #1C2541;
+$raColor_3: #3A506B;
+$raColor_4: #5BC0BE;
+$raColor_5: #6FFFB9;
+
+.descripcion{
+    text-align: justify;
+    font-family: 'Quantico', sans-serif;
+}
+
+.descripcion-img{
+    width: 80%;
+    height: auto;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+    

@@ -1,0 +1,52 @@
+/* Colores básicos */
+
+$primary_0: #FD009D;
+$primary_1: #F0FFFF;
+$primary_2: #A569BD;
+$primary_3: #4A235A;
+$secondary_1: #00CCFF;
+$secondary_2: #CCFF00;
+$secondary_3: #00FF33;
+$secondary_4: #13DAB6;
+
+
+$raColor_1: #0B132B;
+$raColor_2: #1C2541;
+$raColor_3: #3A506B;
+$raColor_4: #5BC0BE;
+$raColor_5: #6FFFB9;
+
+.services {
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.servicios_card {
+  width: fit-content;
+  height: 600px;
+  background-image: linear-gradient(163deg, $secondary_4 0%, $secondary_1 100%);
+  border-radius: 20px;
+  transition: all .3s;
+  text-align: justify;
+  box-shadow: $raColor_1;
+}
+
+// .card2 {
+//   width: 190px;
+//   height: 254px;
+//   background-color: #1a1a1a;
+//   // border-radius:;
+//   transition: all .2s;
+// }
+
+// .card2:hover {
+//   transform: scale(0.98);
+//   border-radius: 20px;
+// }
+
+// .card:hover {
+//   box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+// }

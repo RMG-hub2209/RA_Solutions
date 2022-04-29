@@ -1,0 +1,38 @@
+/* Colores básicos */
+
+$primary_1: #F0FFFF;
+$primary_2: #A569BD;
+$primary_3: #4A235A;
+$secondary_1: #00CCFF;
+$secondary_2: #CCFF00;
+$secondary_3: #00FF33;
+
+
+$raColor_1: #0B132B;
+$raColor_2: #1C2541;
+$raColor_3: #3A506B;
+$raColor_4: #5BC0BE;
+$raColor_5: #6FFFB9;
+
+.footer{
+    background-color: $raColor_2;
+    color: $primary_1;
+    position: absolute;
+    width: 100%;
+}
+
+.Copyright{
+    text-align: center;
+    width: 100%;
+    background-color: $raColor_1;
+}
+
+// .contactus{
+//     padding-top: 5%;
+// }
+
+/***** Buttons *****/
+
+.btn-facebook {color: $primary_1; background-color: #0442CF;}
+.btn-linkedin {color: $primary_1; background-color: #004DFF;}
+.btn-mail {color: $primary_3; background-color: $secondary_2}
