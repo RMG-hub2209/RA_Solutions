@@ -8,7 +8,7 @@
   <div fxflex>
     <button mat-raised-button routerLink="/servicios" routerLinkActive="active" class="servicios_button"><span class="fa fa-wrench fa-lg"></span> Servicios</button>
     <button mat-raised-button routerLink="/about" routerLinkActive="active" class="info_button"><span class="fa fa-address-card fa-lg"></span> Contacto</button>
-    <button mat-raised-button routerLink="/register" routerLinkActive="active" class="register_button"><span>Registrate</span></button>
+    <button mat-raised-button (click)="openRegForm()" class="register_button"><span>Registrate</span></button>
   </div>
   
   <span class="flex-spacer"></span>
