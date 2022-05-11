@@ -1,4 +1,4 @@
-<form #registerForm="ngForm">
+<!-- <form #registerForm="ngForm">
     <div class="inputs">
         <div class="input-group">
             <label for="name">Nombre</label>
@@ -14,4 +14,26 @@
           </div>
           <button type="submit" [disabled]="registerForm.invalid">Registrarse</button>
     </div>
+</form> -->
+
+<form novalidate #regForm="ngForm" (ngSubmit)="onRegister()">
+  <mat-dialog-content>
+    <p>
+      <mat-form-field>
+        <input matInput placeholder="Nombre" type="text" name="nombre"
+        [(ngModel)]="register.name" #name="ngModel" required>
+        <mat-error *ngIf="name.errors?.['required']">Nombre requerido</mat-error>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Email" type="email" name="email"
+        [(ngModel)]="register.email" #email="ngModel" required>
+        <mat-error *ngIf="email.errors?.['required']">Email</mat-error>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Contraseña" type="password" name="contraseña"
+        [(ngModel)]="password.name" #password="ngModel" required>
+        <mat-error *ngIf="password.errors?.['required']">Contraseña requerida!</mat-error>
+      </mat-form-field>
+    </p>
+  </mat-dialog-content>
 </form>
