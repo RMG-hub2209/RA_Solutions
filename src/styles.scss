@@ -63,9 +63,8 @@ body{
     padding: 0;
     margin: 0;
     background-color: $raColor_3;
-    font-family: 'Audiowide', cursive;
+    font-family: 'Audiowide', 'cursive';
     color: $primary_1;
-    height: 100%;
 }
 
 body::-webkit-scrollbar{

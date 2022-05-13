@@ -64,7 +64,6 @@ import { ServiceService } from './services/service.service';
     MatSelectModule,
     MatSlideToggleModule,
     MatSliderModule
-    
   ],
   providers: [
     ServiceService

@@ -16,6 +16,9 @@ $raColor_3: #3A506B;
 $raColor_4: #5BC0BE;
 $raColor_5: #6FFFB9;
 
+.container{
+  height: calc(100vh - 230px);
+}
 
 .servicios_card {
   width: fit-content;
