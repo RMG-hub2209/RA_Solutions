@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
 /* Colores básicos */
 
 $primary_0: #FD009D;
@@ -16,19 +18,39 @@ $raColor_3: #3A506B;
 $raColor_4: #5BC0BE;
 $raColor_5: #6FFFB9;
 
+
 .container{
-  height: calc(100vh - 230px);
+  height: calc(100vh - 240px);
+  margin: 100px;
 }
 
-.servicios_card {
-  width: fit-content;
-  height: 600px;
-  background-image: linear-gradient(163deg, $secondary_4 0%, $secondary_1 100%);
-  border-radius: 20px;
-  transition: all .3s;
-  text-align: justify;
-  box-shadow: $raColor_1;
+.header{
+  margin-top: 15px;
 }
+
+h1{
+  font-family: 'Orbitron', sans-serif;
+}
+
+mat-card{
+  height: 500px;
+  width: fit-content;
+  font-family: 'Orbitron', sans-serif;
+  text-align: justify;
+  mat-card-title{
+    padding-bottom: 5px;
+    border-bottom: 2px solid $primary_0;
+  }
+  mat-card-content{
+    padding-top: 5px;
+    border-top: 2px solid $primary_0;
+  }
+}
+
+
+
+
+
 
 // .card2 {
 //   width: 190px;

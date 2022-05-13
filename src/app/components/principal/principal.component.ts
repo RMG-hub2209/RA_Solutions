@@ -6,6 +6,7 @@ import { MatDialog } from '@angular/material/dialog';
   templateUrl: './principal.component.html',
   styleUrls: ['./principal.component.scss']
 })
+
 export class PrincipalComponent implements OnInit {
 
   constructor(public dialog: MatDialog) { }

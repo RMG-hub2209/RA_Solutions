@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { Service } from '../shared/service';
-import { SERVICES } from '../shared/services';
+// import { Service } from 'src/app/shared/service';
+// import { SERVICES } from 'src/app/shared/services';
 // import { ServiceService } from '../services/service.service';
+import { faHouseChimney } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-servicios',
@@ -10,7 +11,9 @@ import { SERVICES } from '../shared/services';
 })
 export class ServiciosComponent implements OnInit {
 
-  services: Service[] = SERVICES;
+  faHouseChimney = faHouseChimney;
+
+  // services: Service[] = SERVICES;
 
   constructor() { }
 

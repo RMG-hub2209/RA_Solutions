@@ -23,14 +23,19 @@ import { FormsModule } from '@angular/forms';
 import 'hammerjs';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { PrincipalComponent } from './principal/principal.component';
-import { AboutComponent } from './about/about.component';
-import { ServiciosComponent } from './servicios/servicios.component';
-import { RegisterComponent } from './register/register.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { PrincipalComponent } from './components/principal/principal.component';
+import { AboutComponent } from './components/about/about.component';
+import { ServiciosComponent } from './components/servicios/servicios.component';
+import { RegisterComponent } from './components/register/register.component';
 
 import { ServiceService } from './services/service.service';
+import { VentaComponent } from './components/venta/venta.component';
+import { WebDesignComponent } from './components/web-design/web-design.component';
+import { VideoVigilanciaComponent } from './components/video-vigilancia/video-vigilancia.component';
+import { RedesComponent } from './components/redes/redes.component';
+import { SoporteComponent } from './components/soporte/soporte.component';
 
 
 
@@ -42,7 +47,12 @@ import { ServiceService } from './services/service.service';
     PrincipalComponent,
     AboutComponent,
     ServiciosComponent,
-    RegisterComponent
+    RegisterComponent,
+    VentaComponent,
+    WebDesignComponent,
+    VideoVigilanciaComponent,
+    RedesComponent,
+    SoporteComponent
   ],
   imports: [
     BrowserModule,
